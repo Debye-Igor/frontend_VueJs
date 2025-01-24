@@ -1,8 +1,9 @@
 <template>
   <div class="container mt-4">
-
-    <h1 class="text-center mb-4">Información del Proyecto</h1>
-
+    <h1 class="text-center mb-4">Información del Proyecto
+      <i class="bi bi-info-circle text-info ms-2"></i>
+    </h1>
+    
     <div class="card mx-auto shadow fondo" style="max-width: 500px;">
 
       <img
@@ -31,11 +32,14 @@
 <style scoped>
 .fondo {
   background: linear-gradient(135deg, #4cd83f, #65e6f7); 
-  color: #ffffff; 
+  color: #444444; 
   overflow: hidden; 
 }
 
 .card {
   border-radius: 10px;
+}
+h1 i {
+  font-size: 2.5rem;
 }
 </style>

@@ -134,4 +134,7 @@ const enviarFormulario = () => {
   border-color: #dc3545 !important;
   /* Borde rojo para inputs invalidos (cuando se aplica la clase)*/
 }
+h1 i {
+  font-size: 2.5rem;
+}
 </style>
