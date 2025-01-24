@@ -74,7 +74,7 @@ const enviarFormulario = () => {
 </script>
 
 <template>
-  <h1 class="text-center mb-4 p-3 rounded d-flex justify-content-center align-items-center">
+  <h1 class="text-center mb-4 p-3 d-flex justify-content-center align-items-center">
   Formulario de Registro
   <i class="bi bi-person-add text-success ms-2"></i>
 </h1>
