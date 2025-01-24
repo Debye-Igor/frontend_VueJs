@@ -43,7 +43,10 @@ const calcularResultado = () => {
 </script>
 
 <template>
-  <h1 class="text-center mb-4">Cálculo de Calificaciones</h1>
+  <h1 class="text-center mb-4 d-flex align-items-center justify-content-center">
+  Cálculo de Calificaciones 
+  <i class="bi bi-calculator-fill text-primary ms-2"></i>
+</h1>
 
   <div class="d-flex justify-content-center align-items-center">
     <div class="card p-4 shadow" style="width: 400px;">
@@ -100,4 +103,8 @@ const calcularResultado = () => {
 .fw-bold {
   font-weight: bold;
 }
+h1 i {
+  font-size: 2.5rem; /* Tamaño del ícono */
+}
+
 </style>

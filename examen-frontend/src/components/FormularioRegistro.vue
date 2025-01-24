@@ -74,7 +74,10 @@ const enviarFormulario = () => {
 </script>
 
 <template>
-  <h1 class="text-center mb-4">Formulario de Registro</h1>
+  <h1 class="text-center mb-4 p-3 rounded d-flex justify-content-center align-items-center">
+  Formulario de Registro
+  <i class="bi bi-person-add text-success ms-2"></i>
+</h1>
   <div class="d-flex justify-content-center align-items-center">
     <div class="card p-4 shadow" style="width: 400px;">
       <form @submit.prevent="enviarFormulario">
@@ -129,6 +132,6 @@ const enviarFormulario = () => {
 <style scoped>
 .is-invalid {
   border-color: #dc3545 !important;
-  /* Borde rojo para inputs inválidos (cuando se aplica la clase)*/
+  /* Borde rojo para inputs invalidos (cuando se aplica la clase)*/
 }
 </style>
